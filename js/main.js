@@ -1,6 +1,10 @@
 jQuery(function( $ ){
 
     $(document).ready(function(e){
+alert("123");
+        $('.getStarted').on('click', function(){
+            alert("lets start");
+        });
 
         //campaign show store
         var color_code = $(".show_store_banner_color").data('menu-color');
